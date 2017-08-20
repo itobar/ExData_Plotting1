@@ -25,5 +25,5 @@ lines(datetime, sub_metering_2, type="l", col="red")
 lines(datetime, sub_metering_3, type="l", col="blue")
 legend("topright", c("Sub metering 1", "Sub metering 2", "Sub metering 3"), lty=1, lwd=2.5, col=c("black", "red", "blue"))
 
-# Turn off print device
+# Turn off graphics device
 dev.off()
