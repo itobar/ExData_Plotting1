@@ -19,5 +19,5 @@ png("plot2.png", width=480, height=480)
 # Plot graph
 plot(datetime, global_active_power, type="l", xlab="", ylab="Global Active Power (kilowatts)")
 
-# Turn off print device
+# Turn off graphics device
 dev.off()
