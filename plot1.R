@@ -16,5 +16,5 @@ png("plot1.png", width=480, height=480)
 # Plot graph
 hist(global_active_power, col="red", main="Global Active Power", xlab="Global Active Power (kilowatts)")
 
-# Turn off print device
+# Turn off graphics device
 dev.off()
